@@ -73,7 +73,7 @@ BLS BLS Appointment Automation Bot is a Chrome extension designed to automate in
 
 ## Credits
 
-- **Developer**: Ñasir Ali
+- **Developer**: [Ñasir Ali](https://facebook.com/tiger6117)
 - **Website**: [Tigerzplace](https://tigerzplace.com)
 
 ---

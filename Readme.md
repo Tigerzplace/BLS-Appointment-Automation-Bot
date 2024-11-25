@@ -1,6 +1,6 @@
-# BLS Italy Bot - Chrome Extension
+# BLS Appointment Automation Bot - Chrome Extension
 
-BLS Italy Bot is a Chrome extension designed to automate interactions with the BLS Italy appointment booking portal. This tool streamlines tasks like filling forms, solving captchas, and checking appointment availability.
+BLS BLS Appointment Automation Bot is a Chrome extension designed to automate interactions with the BLS Italy appointment booking portal. This tool streamlines tasks like filling forms, solving captchas, and checking appointment availability.
 
 ---
 

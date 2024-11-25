@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BLS Italy Bot</title>
+  <link rel="stylesheet" type="text/css" href="/include/body.css">
+  <link rel="stylesheet" type="text/css" href="/include/materialize.css">
+  
+</head>
+<body>
+
+  <div class="container">
+    <!-- Title Heading -->
+    <div class="title">
+      <h4>BLS Italy Bot</h4>
+    </div>
+    <!-- License Status -->
+    <div id="licenseStatus" class="license-status">
+      <!-- License will show here dynamically -->
+    </div>
+
+    <!-- Progress Bar -->
+    <div class="progress-bar">
+      <div class="progress">
+        <div id="progressBar" class="determinate" style="width: 0%"></div>
+      </div>
+    </div>
+
+    <!-- Progress, Timer, and Start Button in one line -->
+    <div class="progress-container">
+      <div class="timer" id="timer">Time: 00:00</div>
+      <div class="start-button-container">
+        <button id="startBtn" class="btn green" style="display: none;">Start</button>
+      </div>
+      <div id="progressText" class="progress-text">0%</div>
+    </div>
+
+    <!-- Log Area -->
+    <div id="logArea" class="log"></div>
+
+    <!-- Action Buttons (Buy License and Check Update) -->
+    <div class="action-buttons">
+      <a href="#" id="buyLicenseBtn" class="btn red">Buy License</a>
+      <a id="checkLicense" class="btn blue">Check for Update</a>
+    </div>
+
+    <!-- Internet and Process Status Indicators -->
+    <div class="indicator-container">
+      <!-- Internet Status -->
+      <div class="bulb">
+        <div id="internetIndicator" class="indicator-light indicator-off" title="Internet Connection Status"></div>
+        <div class="bulb-tooltip">Internet Connection Status</div>
+      </div>
+
+      <!-- Process Status -->
+      <div class="bulb">
+        <div id="indicatorLight" class="indicator-light indicator-off" title="Process Status"></div>
+        <div class="bulb-tooltip">Process Status</div>
+      </div>
+    </div>
+
+    <!-- Image Container (Canvas) -->
+    <div class="image-container" id="imageContainer">
+      <img src="" id="imageDisplay" alt="Image will be here">
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <p>Page owned by Tigerzplace</p>
+    </div>
+
+    <div id="captcha" style="display: none;"> </div>
+  </div>
+  <script src="/js/frame.js"></script>
+  <script src="/js/popup.js"></script>
+  <script src="/js/functions.js"></script>
+  <script src="/js/Terms.js"></script>
+  <script type="text/javascript" src="/include/materialize.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "BLS Appointment Automation",
+  "version": "1.0",
+  "description": "Automates captcha and form filling for BLS International appointment page.",
+  "permissions": ["tabs", "scripting", "activeTab", "webNavigation"],
+  "host_permissions": ["https://ita-pak.blsinternational.com/*", "https://blsitalypakistan.com/*"],
+  "background": {
+    "service_worker": "js/background.js"
+  },
+  "action": {
+    "default_title": "Start BLS Automation"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["include/jquery.min.js", "js/content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
